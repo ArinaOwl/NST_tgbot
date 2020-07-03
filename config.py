@@ -1,4 +1,4 @@
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
-TOKEN = ''
+TOKEN = 'TOKEN'
 MEMORY_STORAGE = MemoryStorage()

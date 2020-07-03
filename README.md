@@ -51,15 +51,15 @@
           Воспользуйся /help."
           
 ## Реализация 
-Для удобства использования хэндлеры разбиты по файлам, собранным в каталоге handlers. Основные хендлеры для обработки команд /start и /help реализованы в файле general_commands.py, обработка любых других сообщений реализована в файле default_handler.py.
+Для удобства использования хэндлеры разбиты по файлам, собранным в каталоге handlers. Основные хендлеры для обработки команд /start и /help реализованы в файле [general_commands.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/handlers/general_commands.py), обработка любых других сообщений реализована в файле [default_handler.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/handlers/default_handler.py).
 
-Хэндлеры переноса стиля реализованы в файле style_transfer_handler.py. Диалог построен при помощи механизма конечных автоматов, встроенного в aiogram с поддержкой хранилища MemeoryStorage(). В нем используются два состояния:
+Хэндлеры переноса стиля реализованы в файле [style_transfer_handler.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/handlers/style_transfer_handler.py). Диалог построен при помощи механизма конечных автоматов, встроенного в aiogram с поддержкой хранилища MemeoryStorage(). В нем используются два состояния:
 
           - waiting_for_style_img: состояние ожидания картинки style
           - waiting_for_content_img: состояние ожидания картинки content
           
 Картинки сохраняются в каталоге images/.
 
-Модель NST реализована в виде класса в файле model.py. Вспомогательные функции для нее реализованы в файле utils.py.
+Модель NST реализована в виде класса в файле [model.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/model.py). Вспомогательные функции для нее реализованы в файле [utils.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/utils.py).
 
-В файле misc.py объявляется бот, а файл [bot.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/bot.py) служит точкой входа.
+В файле [misc.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/misc.py) объявляется бот, а файл [bot.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/bot.py) служит точкой входа.

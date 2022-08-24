@@ -49,7 +49,12 @@
 
           "Я тебя не понимаю.
           Воспользуйся /help."
-          
+
+## Пример работы
+| Style | Content | Output |
+| --- | --- | --- |
+| <img src="https://github.com/ArinaOwl/NST_tgbot/blob/master/images/style.jpg" width="300" /> | <img src="https://github.com/ArinaOwl/NST_tgbot/blob/master/images/content.jpg" width="300" /> | <img src="https://github.com/ArinaOwl/NST_tgbot/blob/master/images/output.jpg" width="300" /> |
+
 ## Реализация 
 Для удобства использования хэндлеры разбиты по файлам, собранным в каталоге handlers. Основные хендлеры для обработки команд /start и /help реализованы в файле [general_commands.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/handlers/general_commands.py), обработка любых других сообщений реализована в файле [default_handler.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/handlers/default_handler.py).
 
@@ -63,8 +68,3 @@
 Модель NST реализована в виде класса в файле [model.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/model.py). Вспомогательные функции для нее реализованы в файле [utils.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/utils.py).
 
 В файле [misc.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/misc.py) объявляется бот, а файл [bot.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/bot.py) служит точкой входа.
-
-## Пример работы
-| Style | Content | Output |
-| --- | --- | --- |
-| <img src="https://github.com/ArinaOwl/NST_tgbot/blob/master/images/style.jpg" width="300" /> | <img src="https://github.com/ArinaOwl/NST_tgbot/blob/master/images/content.jpg" width="300" /> | <img src="https://github.com/ArinaOwl/NST_tgbot/blob/master/images/output.jpg" width="300" /> |

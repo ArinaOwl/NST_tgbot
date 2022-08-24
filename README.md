@@ -66,3 +66,5 @@
 
 ## Пример работы
 ![Style](https://github.com/ArinaOwl/NST_tgbot/blob/master/images/style.jpg)
+![Content](https://github.com/ArinaOwl/NST_tgbot/blob/master/images/content.jpg)
+![Output](https://github.com/ArinaOwl/NST_tgbot/blob/master/images/output.jpg)

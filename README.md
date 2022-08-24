@@ -63,3 +63,6 @@
 Модель NST реализована в виде класса в файле [model.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/model.py). Вспомогательные функции для нее реализованы в файле [utils.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/utils.py).
 
 В файле [misc.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/misc.py) объявляется бот, а файл [bot.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/bot.py) служит точкой входа.
+
+## Пример работы
+![Style](https://github.com/ArinaOwl/NST_tgbot/blob/master/images/style.jpg)

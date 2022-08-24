@@ -65,6 +65,6 @@
 В файле [misc.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/misc.py) объявляется бот, а файл [bot.py](https://github.com/ArinaOwl/NST_tgbot/blob/master/bot.py) служит точкой входа.
 
 ## Пример работы
-![Style](https://github.com/ArinaOwl/NST_tgbot/blob/master/images/style.jpg)
-![Content](https://github.com/ArinaOwl/NST_tgbot/blob/master/images/content.jpg)
-![Output](https://github.com/ArinaOwl/NST_tgbot/blob/master/images/output.jpg)
+| Style  | Content | Output |
+| ------ | ------- | ------ |
+| ![Style](https://github.com/ArinaOwl/NST_tgbot/blob/master/images/style.jpg)  | ![Content](https://github.com/ArinaOwl/NST_tgbot/blob/master/images/content.jpg)  | ![Output](https://github.com/ArinaOwl/NST_tgbot/blob/master/images/output.jpg) |

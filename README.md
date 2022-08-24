@@ -67,4 +67,4 @@
 ## Пример работы
 | Style | Content | Output |
 | --- | --- | --- |
-| <img src="https://github.com/ArinaOwl/NST_tgbot/blob/master/images/style.jpg" width="300" /> | <img src="https://github.com/ArinaOwl/NST_tgbot/blob/master/images/content.jpg" width="300" /> | <img src="[https://github.com/ArinaOwl/NST_tgbot/blob/master/images/style.jpg](https://github.com/ArinaOwl/NST_tgbot/blob/master/images/output.jpg)" width="300" /> |
+| <img src="https://github.com/ArinaOwl/NST_tgbot/blob/master/images/style.jpg" width="300" /> | <img src="https://github.com/ArinaOwl/NST_tgbot/blob/master/images/content.jpg" width="300" /> | <img src="https://github.com/ArinaOwl/NST_tgbot/blob/master/images/output.jpg" width="300" /> |
